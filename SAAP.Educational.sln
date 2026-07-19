@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{45C19502-65C2-4FEC-9633-F2A4D7AF1CC9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SAAP.Educational.Domain", "src\SAAP.Educational.Domain\SAAP.Educational.Domain.csproj", "{A20746CC-30B5-4E5F-869A-BAE2B75375A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SAAP.Educational.Application", "src\SAAP.Educational.Application\SAAP.Educational.Application.csproj", "{140F3219-05B3-4737-9A45-35799DB99E39}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SAAP.Educational.Shared", "src\SAAP.Educational.Shared\SAAP.Educational.Shared.csproj", "{A5A56E8E-3DA1-4B3B-B89E-285CD1E09B24}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SAAP.Educational.Infrastructure", "src\SAAP.Educational.Infrastructure\SAAP.Educational.Infrastructure.csproj", "{A8D79079-588C-43FA-9FB8-D981B973189E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SAAP.Educational.Api", "src\SAAP.Educational.Api\SAAP.Educational.Api.csproj", "{CC20A962-0760-4644-8187-7A533F36A805}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A20746CC-30B5-4E5F-869A-BAE2B75375A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A20746CC-30B5-4E5F-869A-BAE2B75375A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A20746CC-30B5-4E5F-869A-BAE2B75375A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A20746CC-30B5-4E5F-869A-BAE2B75375A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{140F3219-05B3-4737-9A45-35799DB99E39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{140F3219-05B3-4737-9A45-35799DB99E39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{140F3219-05B3-4737-9A45-35799DB99E39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{140F3219-05B3-4737-9A45-35799DB99E39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5A56E8E-3DA1-4B3B-B89E-285CD1E09B24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5A56E8E-3DA1-4B3B-B89E-285CD1E09B24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5A56E8E-3DA1-4B3B-B89E-285CD1E09B24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5A56E8E-3DA1-4B3B-B89E-285CD1E09B24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8D79079-588C-43FA-9FB8-D981B973189E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8D79079-588C-43FA-9FB8-D981B973189E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8D79079-588C-43FA-9FB8-D981B973189E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8D79079-588C-43FA-9FB8-D981B973189E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC20A962-0760-4644-8187-7A533F36A805}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC20A962-0760-4644-8187-7A533F36A805}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC20A962-0760-4644-8187-7A533F36A805}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC20A962-0760-4644-8187-7A533F36A805}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A20746CC-30B5-4E5F-869A-BAE2B75375A9} = {45C19502-65C2-4FEC-9633-F2A4D7AF1CC9}
+		{140F3219-05B3-4737-9A45-35799DB99E39} = {45C19502-65C2-4FEC-9633-F2A4D7AF1CC9}
+		{A5A56E8E-3DA1-4B3B-B89E-285CD1E09B24} = {45C19502-65C2-4FEC-9633-F2A4D7AF1CC9}
+		{A8D79079-588C-43FA-9FB8-D981B973189E} = {45C19502-65C2-4FEC-9633-F2A4D7AF1CC9}
+		{CC20A962-0760-4644-8187-7A533F36A805} = {45C19502-65C2-4FEC-9633-F2A4D7AF1CC9}
+	EndGlobalSection
+EndGlobal
