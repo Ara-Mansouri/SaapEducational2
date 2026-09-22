@@ -5,15 +5,23 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{45C19502-65C2-4FEC-9633-F2A4D7AF1CC9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SAAP.Educational.Domain", "src\SAAP.Educational.Domain\SAAP.Educational.Domain.csproj", "{A20746CC-30B5-4E5F-869A-BAE2B75375A9}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SAAP.Educational.Application", "src\SAAP.Educational.Application\SAAP.Educational.Application.csproj", "{140F3219-05B3-4737-9A45-35799DB99E39}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SAAP.Educational.Shared", "src\SAAP.Educational.Shared\SAAP.Educational.Shared.csproj", "{A5A56E8E-3DA1-4B3B-B89E-285CD1E09B24}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SAAP.Educational.Infrastructure", "src\SAAP.Educational.Infrastructure\SAAP.Educational.Infrastructure.csproj", "{A8D79079-588C-43FA-9FB8-D981B973189E}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SAAP.Educational.Api", "src\SAAP.Educational.Api\SAAP.Educational.Api.csproj", "{CC20A962-0760-4644-8187-7A533F36A805}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{7BDE9AA8-A3D4-42DE-9CE7-C10FD133553E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Courses", "Courses", "{4657C8D8-1DFA-4E31-B781-1BA25206B4B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SAAP.Educational.Modules.Courses.Contracts", "src\Modules\Courses\SAAP.Educational.Modules.Courses.Contracts\SAAP.Educational.Modules.Courses.Contracts.csproj", "{27FEAA63-49F2-4083-8E26-4DE0578A4223}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SAAP.Educational.Modules.Courses.Domain", "src\Modules\Courses\SAAP.Educational.Modules.Courses.Domain\SAAP.Educational.Modules.Courses.Domain.csproj", "{DD6324AD-3A0D-4D82-9B35-2C2FC25C3CE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SAAP.Educational.Modules.Courses.Application", "src\Modules\Courses\SAAP.Educational.Modules.Courses.Application\SAAP.Educational.Modules.Courses.Application.csproj", "{376287F8-D375-4737-846E-8EA7B1EDF358}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SAAP.Educational.Modules.Courses.Infrastructure", "src\Modules\Courses\SAAP.Educational.Modules.Courses.Infrastructure\SAAP.Educational.Modules.Courses.Infrastructure.csproj", "{2AD2F5A2-7A06-45ED-A952-987541BDF6E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SAAP.Educational.Modules.Courses.Presentation", "src\Modules\Courses\SAAP.Educational.Modules.Courses.Presentation\SAAP.Educational.Modules.Courses.Presentation.csproj", "{ADBB921D-B522-4117-9B5B-E8E258C9B19F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,32 +32,44 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{A20746CC-30B5-4E5F-869A-BAE2B75375A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A20746CC-30B5-4E5F-869A-BAE2B75375A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A20746CC-30B5-4E5F-869A-BAE2B75375A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A20746CC-30B5-4E5F-869A-BAE2B75375A9}.Release|Any CPU.Build.0 = Release|Any CPU
-		{140F3219-05B3-4737-9A45-35799DB99E39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{140F3219-05B3-4737-9A45-35799DB99E39}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{140F3219-05B3-4737-9A45-35799DB99E39}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{140F3219-05B3-4737-9A45-35799DB99E39}.Release|Any CPU.Build.0 = Release|Any CPU
 		{A5A56E8E-3DA1-4B3B-B89E-285CD1E09B24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{A5A56E8E-3DA1-4B3B-B89E-285CD1E09B24}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A5A56E8E-3DA1-4B3B-B89E-285CD1E09B24}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A5A56E8E-3DA1-4B3B-B89E-285CD1E09B24}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A8D79079-588C-43FA-9FB8-D981B973189E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A8D79079-588C-43FA-9FB8-D981B973189E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A8D79079-588C-43FA-9FB8-D981B973189E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A8D79079-588C-43FA-9FB8-D981B973189E}.Release|Any CPU.Build.0 = Release|Any CPU
 		{CC20A962-0760-4644-8187-7A533F36A805}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{CC20A962-0760-4644-8187-7A533F36A805}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CC20A962-0760-4644-8187-7A533F36A805}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CC20A962-0760-4644-8187-7A533F36A805}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27FEAA63-49F2-4083-8E26-4DE0578A4223}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27FEAA63-49F2-4083-8E26-4DE0578A4223}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27FEAA63-49F2-4083-8E26-4DE0578A4223}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27FEAA63-49F2-4083-8E26-4DE0578A4223}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD6324AD-3A0D-4D82-9B35-2C2FC25C3CE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD6324AD-3A0D-4D82-9B35-2C2FC25C3CE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD6324AD-3A0D-4D82-9B35-2C2FC25C3CE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD6324AD-3A0D-4D82-9B35-2C2FC25C3CE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{376287F8-D375-4737-846E-8EA7B1EDF358}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{376287F8-D375-4737-846E-8EA7B1EDF358}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{376287F8-D375-4737-846E-8EA7B1EDF358}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{376287F8-D375-4737-846E-8EA7B1EDF358}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AD2F5A2-7A06-45ED-A952-987541BDF6E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AD2F5A2-7A06-45ED-A952-987541BDF6E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AD2F5A2-7A06-45ED-A952-987541BDF6E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AD2F5A2-7A06-45ED-A952-987541BDF6E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADBB921D-B522-4117-9B5B-E8E258C9B19F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADBB921D-B522-4117-9B5B-E8E258C9B19F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADBB921D-B522-4117-9B5B-E8E258C9B19F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADBB921D-B522-4117-9B5B-E8E258C9B19F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{A20746CC-30B5-4E5F-869A-BAE2B75375A9} = {45C19502-65C2-4FEC-9633-F2A4D7AF1CC9}
-		{140F3219-05B3-4737-9A45-35799DB99E39} = {45C19502-65C2-4FEC-9633-F2A4D7AF1CC9}
 		{A5A56E8E-3DA1-4B3B-B89E-285CD1E09B24} = {45C19502-65C2-4FEC-9633-F2A4D7AF1CC9}
-		{A8D79079-588C-43FA-9FB8-D981B973189E} = {45C19502-65C2-4FEC-9633-F2A4D7AF1CC9}
 		{CC20A962-0760-4644-8187-7A533F36A805} = {45C19502-65C2-4FEC-9633-F2A4D7AF1CC9}
+		{7BDE9AA8-A3D4-42DE-9CE7-C10FD133553E} = {45C19502-65C2-4FEC-9633-F2A4D7AF1CC9}
+		{4657C8D8-1DFA-4E31-B781-1BA25206B4B6} = {7BDE9AA8-A3D4-42DE-9CE7-C10FD133553E}
+		{27FEAA63-49F2-4083-8E26-4DE0578A4223} = {4657C8D8-1DFA-4E31-B781-1BA25206B4B6}
+		{DD6324AD-3A0D-4D82-9B35-2C2FC25C3CE1} = {4657C8D8-1DFA-4E31-B781-1BA25206B4B6}
+		{376287F8-D375-4737-846E-8EA7B1EDF358} = {4657C8D8-1DFA-4E31-B781-1BA25206B4B6}
+		{2AD2F5A2-7A06-45ED-A952-987541BDF6E2} = {4657C8D8-1DFA-4E31-B781-1BA25206B4B6}
+		{ADBB921D-B522-4117-9B5B-E8E258C9B19F} = {4657C8D8-1DFA-4E31-B781-1BA25206B4B6}
 	EndGlobalSection
 EndGlobal
