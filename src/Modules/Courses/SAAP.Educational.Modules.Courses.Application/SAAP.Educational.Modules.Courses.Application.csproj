@@ -1,5 +1,10 @@
 <Project Sdk="Microsoft.NET.Sdk">
-<<<<<<<< HEAD:src/Modules/Courses/SAAP.Educational.Modules.Courses.Application/SAAP.Educational.Modules.Courses.Application.csproj
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="MediatR" Version="14.2.0" />
@@ -7,22 +12,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\SAAP.Educational.Modules.Courses.Contracts\SAAP.Educational.Modules.Courses.Contracts.csproj" />
     <ProjectReference Include="..\SAAP.Educational.Modules.Courses.Domain\SAAP.Educational.Modules.Courses.Domain.csproj" />
     <ProjectReference Include="..\..\..\SAAP.Educational.Shared\SAAP.Educational.Shared.csproj" />
   </ItemGroup>
 
-========
->>>>>>>> master:src/Modules/Courses/SAAP.Educational.Modules.Courses.Infrastructure/SAAP.Educational.Modules.Courses.Infrastructure.csproj
-  <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
-  </PropertyGroup>
-  <ItemGroup>
-    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="10.0.0" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\SAAP.Educational.Modules.Courses.Domain\SAAP.Educational.Modules.Courses.Domain.csproj" />
-    <ProjectReference Include="..\..\..\SAAP.Educational.Shared\SAAP.Educational.Shared.csproj" />
-  </ItemGroup>
 </Project>

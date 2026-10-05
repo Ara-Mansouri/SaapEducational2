@@ -1,3 +1,5 @@
+using SAAP.Educational.Shared.Common;
+
 namespace SAAP.Educational.Shared.Domain;
 
 public abstract class AggregateRoot<TKey> : Entity<TKey>, IAggregateRoot

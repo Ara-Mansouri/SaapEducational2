@@ -1,7 +1,8 @@
 using Microsoft.Extensions.DependencyInjection;
 using SAAP.Educational.Modules.Courses.Domain.Courses;
 using SAAP.Educational.Modules.Courses.Infrastructure.Persistence;
-using SAAP.Educational.Modules.Courses.Infrastructure.Persistence.Courses;
+using InMemoryCourseCommandRepository = SAAP.Educational.Modules.Courses.Infrastructure.Persistence.Courses.InMemoryCourseCommandRepository;
+using InMemoryCourseQueryRepository = SAAP.Educational.Modules.Courses.Infrastructure.Persistence.Courses.InMemoryCourseQueryRepository;
 using SAAP.Educational.Shared.Persistence;
 
 namespace SAAP.Educational.Modules.Courses.Infrastructure;
