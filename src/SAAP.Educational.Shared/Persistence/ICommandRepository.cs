@@ -1,4 +1,4 @@
-using SAAP.Educational.Shared.Domain;
+using SAAP.Educational.Shared.Common;
 
 namespace SAAP.Educational.Shared.Persistence;
 

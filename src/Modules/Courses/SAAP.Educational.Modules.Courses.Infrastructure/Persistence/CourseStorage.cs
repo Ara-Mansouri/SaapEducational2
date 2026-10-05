@@ -6,11 +6,19 @@ internal sealed class CourseStorage
 {
     public CourseStorage()
     {
-        Courses =
-        [
-            Course.Create("Onion Architecture", "Layered architecture sample for SAAP Educational."),
-            Course.Create("CQRS with MediatR", "Command and query separation with shared abstractions.")
-        ];
+        var architectureCourse = Course.Create(
+            "Onion Architecture",
+            "Layered architecture sample for SAAP Educational.");
+        architectureCourse.AddSection("Domain model");
+        architectureCourse.AddSection("Application layer");
+
+        var cqrsCourse = Course.Create(
+            "CQRS with MediatR",
+            "Command and query separation with shared abstractions.");
+        cqrsCourse.AddSection("Commands");
+        cqrsCourse.AddSection("Queries");
+
+        Courses = [architectureCourse, cqrsCourse];
     }
 
     public List<Course> Courses { get; }

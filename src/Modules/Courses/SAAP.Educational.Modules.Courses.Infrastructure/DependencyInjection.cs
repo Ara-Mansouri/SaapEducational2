@@ -1,6 +1,7 @@
 using Microsoft.Extensions.DependencyInjection;
 using SAAP.Educational.Modules.Courses.Domain.Courses;
 using SAAP.Educational.Modules.Courses.Infrastructure.Persistence;
+using SAAP.Educational.Modules.Courses.Infrastructure.Persistence.Courses;
 using SAAP.Educational.Shared.Persistence;
 
 namespace SAAP.Educational.Modules.Courses.Infrastructure;

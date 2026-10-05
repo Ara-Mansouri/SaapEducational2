@@ -5,31 +5,28 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{45C19502-65C2-4FEC-9633-F2A4D7AF1CC9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SAAP.Educational.Shared", "src\SAAP.Educational.Shared\SAAP.Educational.Shared.csproj", "{A5A56E8E-3DA1-4B3B-B89E-285CD1E09B24}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SAAP.Educational.Shared", "src\SAAP.Educational.Shared\SAAP.Educational.Shared.csproj", "{A5A56E8E-3DA1-4B3B-B89E-285CD1E09B24}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SAAP.Educational.Api", "src\SAAP.Educational.Api\SAAP.Educational.Api.csproj", "{CC20A962-0760-4644-8187-7A533F36A805}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SAAP.Educational.Api", "src\SAAP.Educational.Api\SAAP.Educational.Api.csproj", "{CC20A962-0760-4644-8187-7A533F36A805}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{7BDE9AA8-A3D4-42DE-9CE7-C10FD133553E}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{F76192A5-3CA2-4D69-A2D6-3EBFBD24BC39}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Courses", "Courses", "{4657C8D8-1DFA-4E31-B781-1BA25206B4B6}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Courses", "Courses", "{76545F3E-EC7D-48BF-B221-969985495A0E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SAAP.Educational.Modules.Courses.Contracts", "src\Modules\Courses\SAAP.Educational.Modules.Courses.Contracts\SAAP.Educational.Modules.Courses.Contracts.csproj", "{27FEAA63-49F2-4083-8E26-4DE0578A4223}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SAAP.Educational.Modules.Courses.Contracts", "src\Modules\Courses\SAAP.Educational.Modules.Courses.Contracts\SAAP.Educational.Modules.Courses.Contracts.csproj", "{84E72032-B76A-4BFF-9346-3104591F3DB4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SAAP.Educational.Modules.Courses.Domain", "src\Modules\Courses\SAAP.Educational.Modules.Courses.Domain\SAAP.Educational.Modules.Courses.Domain.csproj", "{DD6324AD-3A0D-4D82-9B35-2C2FC25C3CE1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SAAP.Educational.Modules.Courses.Domain", "src\Modules\Courses\SAAP.Educational.Modules.Courses.Domain\SAAP.Educational.Modules.Courses.Domain.csproj", "{2A14604A-E657-426F-A695-CF0F15995A67}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SAAP.Educational.Modules.Courses.Application", "src\Modules\Courses\SAAP.Educational.Modules.Courses.Application\SAAP.Educational.Modules.Courses.Application.csproj", "{376287F8-D375-4737-846E-8EA7B1EDF358}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SAAP.Educational.Modules.Courses.Application", "src\Modules\Courses\SAAP.Educational.Modules.Courses.Application\SAAP.Educational.Modules.Courses.Application.csproj", "{6FDC965A-5C8C-4EBE-A92F-9AAB1FE26EDE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SAAP.Educational.Modules.Courses.Infrastructure", "src\Modules\Courses\SAAP.Educational.Modules.Courses.Infrastructure\SAAP.Educational.Modules.Courses.Infrastructure.csproj", "{2AD2F5A2-7A06-45ED-A952-987541BDF6E2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SAAP.Educational.Modules.Courses.Infrastructure", "src\Modules\Courses\SAAP.Educational.Modules.Courses.Infrastructure\SAAP.Educational.Modules.Courses.Infrastructure.csproj", "{1A2C7A19-F3B0-4439-9A1F-50DA8435EB92}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SAAP.Educational.Modules.Courses.Presentation", "src\Modules\Courses\SAAP.Educational.Modules.Courses.Presentation\SAAP.Educational.Modules.Courses.Presentation.csproj", "{ADBB921D-B522-4117-9B5B-E8E258C9B19F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SAAP.Educational.Modules.Courses.Presentation", "src\Modules\Courses\SAAP.Educational.Modules.Courses.Presentation\SAAP.Educational.Modules.Courses.Presentation.csproj", "{E29D7C7F-5287-45BA-A3F3-A32F01C3E381}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{A5A56E8E-3DA1-4B3B-B89E-285CD1E09B24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -40,36 +37,42 @@ Global
 		{CC20A962-0760-4644-8187-7A533F36A805}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CC20A962-0760-4644-8187-7A533F36A805}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CC20A962-0760-4644-8187-7A533F36A805}.Release|Any CPU.Build.0 = Release|Any CPU
-		{27FEAA63-49F2-4083-8E26-4DE0578A4223}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{27FEAA63-49F2-4083-8E26-4DE0578A4223}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{27FEAA63-49F2-4083-8E26-4DE0578A4223}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{27FEAA63-49F2-4083-8E26-4DE0578A4223}.Release|Any CPU.Build.0 = Release|Any CPU
-		{DD6324AD-3A0D-4D82-9B35-2C2FC25C3CE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DD6324AD-3A0D-4D82-9B35-2C2FC25C3CE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DD6324AD-3A0D-4D82-9B35-2C2FC25C3CE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DD6324AD-3A0D-4D82-9B35-2C2FC25C3CE1}.Release|Any CPU.Build.0 = Release|Any CPU
-		{376287F8-D375-4737-846E-8EA7B1EDF358}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{376287F8-D375-4737-846E-8EA7B1EDF358}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{376287F8-D375-4737-846E-8EA7B1EDF358}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{376287F8-D375-4737-846E-8EA7B1EDF358}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2AD2F5A2-7A06-45ED-A952-987541BDF6E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2AD2F5A2-7A06-45ED-A952-987541BDF6E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2AD2F5A2-7A06-45ED-A952-987541BDF6E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2AD2F5A2-7A06-45ED-A952-987541BDF6E2}.Release|Any CPU.Build.0 = Release|Any CPU
-		{ADBB921D-B522-4117-9B5B-E8E258C9B19F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{ADBB921D-B522-4117-9B5B-E8E258C9B19F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{ADBB921D-B522-4117-9B5B-E8E258C9B19F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{ADBB921D-B522-4117-9B5B-E8E258C9B19F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84E72032-B76A-4BFF-9346-3104591F3DB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84E72032-B76A-4BFF-9346-3104591F3DB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84E72032-B76A-4BFF-9346-3104591F3DB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84E72032-B76A-4BFF-9346-3104591F3DB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A14604A-E657-426F-A695-CF0F15995A67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A14604A-E657-426F-A695-CF0F15995A67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A14604A-E657-426F-A695-CF0F15995A67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A14604A-E657-426F-A695-CF0F15995A67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FDC965A-5C8C-4EBE-A92F-9AAB1FE26EDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FDC965A-5C8C-4EBE-A92F-9AAB1FE26EDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FDC965A-5C8C-4EBE-A92F-9AAB1FE26EDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FDC965A-5C8C-4EBE-A92F-9AAB1FE26EDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A2C7A19-F3B0-4439-9A1F-50DA8435EB92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A2C7A19-F3B0-4439-9A1F-50DA8435EB92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A2C7A19-F3B0-4439-9A1F-50DA8435EB92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A2C7A19-F3B0-4439-9A1F-50DA8435EB92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E29D7C7F-5287-45BA-A3F3-A32F01C3E381}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E29D7C7F-5287-45BA-A3F3-A32F01C3E381}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E29D7C7F-5287-45BA-A3F3-A32F01C3E381}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E29D7C7F-5287-45BA-A3F3-A32F01C3E381}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{A5A56E8E-3DA1-4B3B-B89E-285CD1E09B24} = {45C19502-65C2-4FEC-9633-F2A4D7AF1CC9}
 		{CC20A962-0760-4644-8187-7A533F36A805} = {45C19502-65C2-4FEC-9633-F2A4D7AF1CC9}
-		{7BDE9AA8-A3D4-42DE-9CE7-C10FD133553E} = {45C19502-65C2-4FEC-9633-F2A4D7AF1CC9}
-		{4657C8D8-1DFA-4E31-B781-1BA25206B4B6} = {7BDE9AA8-A3D4-42DE-9CE7-C10FD133553E}
-		{27FEAA63-49F2-4083-8E26-4DE0578A4223} = {4657C8D8-1DFA-4E31-B781-1BA25206B4B6}
-		{DD6324AD-3A0D-4D82-9B35-2C2FC25C3CE1} = {4657C8D8-1DFA-4E31-B781-1BA25206B4B6}
-		{376287F8-D375-4737-846E-8EA7B1EDF358} = {4657C8D8-1DFA-4E31-B781-1BA25206B4B6}
-		{2AD2F5A2-7A06-45ED-A952-987541BDF6E2} = {4657C8D8-1DFA-4E31-B781-1BA25206B4B6}
-		{ADBB921D-B522-4117-9B5B-E8E258C9B19F} = {4657C8D8-1DFA-4E31-B781-1BA25206B4B6}
+		{F76192A5-3CA2-4D69-A2D6-3EBFBD24BC39} = {45C19502-65C2-4FEC-9633-F2A4D7AF1CC9}
+		{76545F3E-EC7D-48BF-B221-969985495A0E} = {F76192A5-3CA2-4D69-A2D6-3EBFBD24BC39}
+		{84E72032-B76A-4BFF-9346-3104591F3DB4} = {76545F3E-EC7D-48BF-B221-969985495A0E}
+		{2A14604A-E657-426F-A695-CF0F15995A67} = {76545F3E-EC7D-48BF-B221-969985495A0E}
+		{6FDC965A-5C8C-4EBE-A92F-9AAB1FE26EDE} = {76545F3E-EC7D-48BF-B221-969985495A0E}
+		{1A2C7A19-F3B0-4439-9A1F-50DA8435EB92} = {76545F3E-EC7D-48BF-B221-969985495A0E}
+		{E29D7C7F-5287-45BA-A3F3-A32F01C3E381} = {76545F3E-EC7D-48BF-B221-969985495A0E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C20A6E9B-6277-4F7C-B4C8-50C55B44131B}
 	EndGlobalSection
 EndGlobal
